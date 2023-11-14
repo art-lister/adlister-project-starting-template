@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Padauk:wght@400;700&family=Varela&display=swap');
+body {
+    /*background: -webkit-linear-gradient(left, white, #b08eec);*/
+    background: linear-gradient(300deg, #c1c1c7,#b08eec , #e1c4ff);
+    background-size: 800% 800%;
+    animation: gradient-animation 4s ease infinite;
+    height: 100%;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 .page-wrapper {
     display: flex;
@@ -27,6 +45,9 @@ video {
     align-items: center;
     justify-content: center;
 }
+.navbar-custom{
+    background-color: #b08eec;
+}
 .container.hero {
     width: 800px;
 }
@@ -36,7 +57,7 @@ video {
     font-weight: 400;
     position: relative;
     color: white;
-    /*text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .black-overlay{
     position: absolute;
@@ -45,11 +66,11 @@ video {
     background-color: rgba(0, 0, 0, 0.37);
     z-index: -1;
 }
-input.btn {
+input.btn , button.btn {
     background-color: #58319d;
     color: whitesmoke;
 }
-input.btn:hover{
+input.btn:hover, button.btn:hover{
     background-color: #b08eec;
     color: whitesmoke;
     transition: 0.3s;
@@ -59,20 +80,43 @@ h1, h3 {
     color: whitesmoke;
     margin: 10px;
     padding: 10px;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px white;
     z-index: 2;
 }
 
-/*h1 {*/
-/*    font-size: 100px;*/
-/*}*/
+.container.hero h1 {
+    font-size: 80px;
+}
 
 h3 {
     font-size: 50px;
     color: whitesmoke;
 }
+p {
+    font-size: 24px;
+}
+.container.hero{
+
+}
 .container.hero p {
     font-family: 'Padauk', sans-serif;
     color: white;
     font-size: 30px;
+}
+.container {
+    min-width: 1100px;
+}
+button a {
+    color: whitesmoke;
+}
+.smaller-ad-register{
+    background-color: whitesmoke;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+p.about{
+    text-shadow: 2px 2px 5px black;
 }

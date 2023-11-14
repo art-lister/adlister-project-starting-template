@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-@WebServlet(name = "controllers.AdsIndexServlet", urlPatterns = "/ads")
+@WebServlet(name = "controllers.AdsIndexServlet", urlPatterns = "/ads/index")
 public class AdsIndexServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Ad> ads = DaoFactory.getAdsDao().all();

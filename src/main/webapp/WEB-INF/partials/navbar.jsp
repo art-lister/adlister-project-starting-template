@@ -1,9 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar navbar-expand-lg bg-body-tertiary justify-content-start">
+        <div class="navbar navbar-custom navbar-expand-lg bg-body-tertiary justify-content-start">
             <div class="container-fluid">
-                <a class="navbar-brand link-secondary" href="/ads">Art-lister</a>
+                <a class="navbar-brand link-secondary" href="/ads/index">Art-lister</a>
                 <ul class="nav justify-content-end">
 
                     <%-- Check if user is logged in --%>
@@ -23,6 +23,9 @@
                     <c:if test="${sessionScope.user != null}">
 
                         <!-- Display logout link -->
+                        <li class="nav-item">
+                            <a class="nav-link link-secondary" href="/index.jsp">Home</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link link-secondary" href="/profile">Profile</a>
                         </li>

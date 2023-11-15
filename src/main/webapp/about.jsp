@@ -18,7 +18,7 @@
         <div class="container">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-              <img src="media/jeremiah_img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
+              <img src="media/jeremiah_img.png" class="rounded-4 d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
             </div>
             <div class="col-lg-6">
               <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Jeremiah Matthews</h1>
@@ -39,11 +39,11 @@
         <div class="container">
           <div class="row flex-lg-row align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-              <img src="media/kaylee_img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
+              <img src="media/kaylee_img.png" class="rounded-4 d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
             </div>
             <div class="col-lg-6">
               <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kaylee Knox</h1>
-                <p class="about">Passionate junior full-stack web developer with background in education, driven by a love for design and building functional and aesthetic websites.</p>
+                <p class="about">A front-end web developer with a focus on UX/UI design and a passion for art. Expertise lies in crafting visually appealing and user-friendly interfaces, seamlessly integrating form and function. By combining technical proficiency with artistic sensibilities, I translate design concepts into responsive and interactive websites, always striving to push the boundaries of user interface innovation.</p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <a href="https://www.linkedin.com/in/kaylee-knox-b28432227/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
                   <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -60,13 +60,13 @@
         <div class="container">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-              <img src="media/nani_img.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
+              <img src="media/nani_img.jpg" class="rounded-4 d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
             </div>
             <div class="col-lg-6">
               <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Nani Rios</h1>
-                <p class="about">Dedicated junior full-stack web developer with a business administration Bachelor's Degree, blending a passion for design with a commitment to assisting others, bringing a unique perspective as a female professional in the field.</p>
+                <p class="about">Dedicated full-stack web developer with a business administration Bachelor's Degree, blending a passion for design with a commitment to assisting others, bringing a unique perspective as a female professional in the field.</p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a href="www.linkedin.com/in/milianigiarios"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <a href="https://www.linkedin.com/in/milianigiarios/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
                   <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
                 </svg></a>
                 <a href="https://github.com/mrios671"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-github" viewBox="0 0 16 16">
@@ -84,7 +84,7 @@
       <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Art-Lister</p>
 
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brush-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-brush-fill" viewBox="0 0 16 16">
           <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04z"/>
         </svg>        </a>
 

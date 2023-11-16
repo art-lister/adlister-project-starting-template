@@ -126,13 +126,13 @@
         <!-- Edit button -->
         <form method="get" action="/editprofile" class="editForm">
             <input type="hidden" name="userId" value="${sessionScope.user.id}">
-            <input type="submit" class="btn" value="Edit">
+            <input type="submit" class="btn" value="Edit Profile">
         </form>
 
         <!-- Delete button -->
         <form method="post" action="/deleteuser" class="editForm">
             <input type="hidden" name="userId" value="${sessionScope.user.id}">
-            <input type="submit" class="btn" value="Delete">
+            <input type="submit" class="btn" value="Delete Profile">
         </form>
 
 
@@ -155,11 +155,11 @@
                     <td class="d-flex justify-content-end">
                     <form method="get" action="ads/edit?id=${ad.id}" class="editAd px-2">
                         <input type="hidden" name="id" value="${ad.id}">
-                        <input type="submit" class="btn" value="Edit Profile">
+                        <input type="submit" class="btn" value="Edit">
                     </form>
                     <form method="post" action="ads/deletead?id=${ad.id}" class="deleteAd px-2">
                         <input type="hidden" name="id" value="${ad.id}">
-                        <input type="submit" class="btn" value="Delete Profile">
+                        <input type="submit" class="btn" value="Delete">
                     </form>
                 </tr>
             </c:forEach>

@@ -24,11 +24,6 @@ public class EditAdServlet extends HttpServlet {
         long idFromURL = Long.parseLong(request.getParameter("id"));
         System.out.println("idFromURL = " + idFromURL);
 
-        Ads myDao = DaoFactory.getAdsDao();
-
-        System.out.println("myDao.findById(5) = " + myDao.findById(5).getTitle());
-
-
         Ad testAd = DaoFactory.getAdsDao().findById(idFromURL);
         System.out.println("testAd.getId() = " + testAd.getId());
         System.out.println("testAd.getDescription() = " + testAd.getDescription());

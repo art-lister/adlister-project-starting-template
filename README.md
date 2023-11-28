@@ -24,7 +24,7 @@ Art-Lister is a web application designed to cater to the needs of artists, provi
 + Users with and without an account can **search through all ads posted** by typing in a search query
 
 ### Art-Lister is created by:
-[Jeremiah Williams](https://github.com/jeremiahm105)
+[Jeremiah Matthews](https://github.com/jeremiahm105)
 
 [Milianigia Rios](https://github.com/mrios671)
 
